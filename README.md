@@ -31,13 +31,13 @@ sudo apt install git-all
 First, We need to create a folder. The location doesn't matter, This is just the default location.
 Next, Just install the main files.
 ```sh
-curl -Lo DevHub.zip https://github.com/justDarian/DevHub/releases/latest/download/DevHub.zip
+curl -Lo DevHub.zip https://github.com/TheDevs-Lab/DevHub/releases/latest/download/DevHub.zip
 tar -xzvf DevHub.zip
 ```
 
 You can also install using git, which is suggested
 ```sh
-git clone https://github.com/justDarian/DevHub.git
+git clone https://github.com/TheDevs-Lab/DevHub.git
 ```
 
 Now you've setup DevHub!
@@ -58,4 +58,4 @@ You may get support by joining our [discord](https://dariandev.com/discord)!
 
 DevHub® Copyright © 2023
 
-[GNU Public License](https://github.com/justDarian/DevHub/blob/main/LICENSE.md)
+[GNU Public License](https://github.com/TheDevs-Lab/DevHub/blob/main/LICENSE.md)
