@@ -1,0 +1,18 @@
+{
+  "name": "devhub",
+  "version": "2A",
+  "description": "DevHub is a highly intuitive proxy hub, meant for reRouting blockers",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "run": "node index.js"
+  },
+  "keywords": [],
+  "author": "DarianDev",
+  "license": "ISC",
+  "dependencies": {
+    "@tomphttp/bare-server-node": "^2.0.1",
+    "express": "^4.18.2"
+  }
+}
