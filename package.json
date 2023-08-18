@@ -1,6 +1,6 @@
 {
   "name": "devhub",
-  "version": "2A",
+  "version": "2B",
   "description": "DevHub is a highly intuitive proxy hub, meant for reRouting blockers",
   "main": "index.js",
   "type": "module",
