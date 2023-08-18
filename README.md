@@ -49,9 +49,13 @@ You may get support by joining our [discord](https://dariandev.com/discord)!
 
 # Credits
 [Darian](https://github.com/justDarian) - Owner/Main Dev
+
 [Zack](https://github.com/komouri) - Project Manager
+
 [GreenWorld](https://github.com/GreenyDEV) - Contributor
+
 [Russell2259](https://github.com/Russell2259) - Contributor
+
 [Dynamic](https://github.com/NebulaServices/Dynamic) - Proxy
 
 # License
