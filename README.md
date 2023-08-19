@@ -31,7 +31,7 @@ sudo apt install git-all
 First, We need to create a folder. The location doesn't matter, This is just the default location.
 Next, Just install the main files.
 ```sh
-curl -Lo DevHub.zip https://github.com/justDarian/DevHub/releases/latest/download/DevHub.zip
+curl -Lo DevHub.zip https://github.com/TheDevs-Lab/DevHub/releases/latest/download/DevHub.zip
 tar -xzvf DevHub.zip
 ```
 
@@ -48,13 +48,13 @@ node.js index.js``` or ```npm start``` to start DevHub. You may modify the port 
 You may get support by joining our [discord](https://dariandev.com/discord)!
 
 # Credits
-[Darian](https://github.com/justDarian)
+[Darian](https://github.com/justDarian) - Owner/Developer
 
-[Zack](https://github.com/komouri)
+[Zack](https://github.com/komouri) - Project Manager
 
-[Russell2259](https://github.com/Russell2259) 
+[Russell2259](https://github.com/Russell2259) - Ultraviolet Support
 
-[Ultraviolet](https://github.com/titaniumnetwork-dev/Ultraviolet)
+[Ultraviolet](https://github.com/titaniumnetwork-dev/Ultraviolet) - Proxy
 
 # License
 
