@@ -1,10 +1,10 @@
 # DevHub
-DevHub is a proxy hub, mostly meant to be a fast one stop shop for a high speed proxy and tons of games. All of this was possible because of [Dynamic](https://github.com/NebulaServices/Dynamic)!
+DevHub is a proxy hub, mostly meant to be a fast one stop shop for a high speed proxy and tons of games. All of this was possible because of  [Ultraviolet](https://github.com/titaniumnetwork-dev/Ultraviolet)!
 
 _Live Website: https://devhub.dariandev.com/_
 
 # How does it work?
-Using [Dynamic](https://github.com/NebulaServices/Dynamic), you can proxy sites through a [Bare Server](https://github.com/tomphttp/bare-server-node). Most of DevHub is frontend, the only part of backend is the TOMPHTTP Bare Server.
+Using [Ultraviolet](https://github.com/titaniumnetwork-dev/Ultraviolet), you can proxy sites through a [Bare Server](https://github.com/tomphttp/bare-server-node). Most of DevHub is frontend, the only part of backend is the TOMPHTTP Bare Server.
 
 # Dependencies
 These are the dependencies you will need, This includes **[Node.js](https://nodejs.org/), [NPM](https://www.npmjs.com/), And [Git](https://git-scm.com/).**
@@ -31,13 +31,13 @@ sudo apt install git-all
 First, We need to create a folder. The location doesn't matter, This is just the default location.
 Next, Just install the main files.
 ```sh
-curl -Lo DevHub.zip https://github.com/TheDevs-Lab/DevHub/releases/latest/download/DevHub.zip
+curl -Lo DevHub.zip https://github.com/justDarian/DevHub/releases/latest/download/DevHub.zip
 tar -xzvf DevHub.zip
 ```
 
 You can also install using git, which is suggested
 ```sh
-git clone https://github.com/TheDevs-Lab/DevHub.git
+git clone https://github.com/justDarian/DevHub.git
 ```
 
 Now you've setup DevHub!
@@ -48,18 +48,16 @@ node.js index.js``` or ```npm start``` to start DevHub. You may modify the port 
 You may get support by joining our [discord](https://dariandev.com/discord)!
 
 # Credits
-[Darian](https://github.com/justDarian) - Owner/Main Dev
+[Darian](https://github.com/justDarian)
 
-[Zack](https://github.com/komouri) - Project Manager
+[Zack](https://github.com/komouri)
 
-[GreenWorld](https://github.com/GreenyDEV) - Contributor
+[Russell2259](https://github.com/Russell2259) 
 
-[Russell2259](https://github.com/Russell2259) - Contributor
-
-[Dynamic](https://github.com/NebulaServices/Dynamic) - Proxy
+[Ultraviolet](https://github.com/titaniumnetwork-dev/Ultraviolet)
 
 # License
 
 DevHub® Copyright © 2023
 
-[GNU Public License](https://github.com/TheDevs-Lab/DevHub/blob/main/LICENSE.md)
+[GNU Public License](https://github.com/justDarian/DevHub/blob/main/LICENSE.md)
