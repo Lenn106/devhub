@@ -1,15 +1,26 @@
+<!-- <div align="center">
+  <a href="https://devhub.dariandev.com/">
+    <img src="devhub-logo.png" alt="DevHub Logo" width="200">
+  </a>
+</div> -->
+
 # DevHub
 DevHub is a proxy hub, mostly meant to be a fast one stop shop for a high speed proxy and tons of games. All of this was possible because of  [Ultraviolet](https://github.com/titaniumnetwork-dev/Ultraviolet)!
 
-_Live Website: https://devhub.dariandev.com/_
+<div align="center">
+  <a href="https://devhub.dariandev.com/">🔥 Live Website: https://devhub.dariandev.com/</a>
+</div>
 
 # How does it work?
 Using [Ultraviolet](https://github.com/titaniumnetwork-dev/Ultraviolet), you can proxy sites through a [Bare Server](https://github.com/tomphttp/bare-server-node). Most of DevHub is frontend, the only part of backend is the TOMPHTTP Bare Server.
 
-# Dependencies
-These are the dependencies you will need, This includes **[Node.js](https://nodejs.org/), [NPM](https://www.npmjs.com/), And [Git](https://git-scm.com/).**
+## Prerequisites
+Equip yourself with the essential tools:
+- **[Node.js](https://nodejs.org/)**
+- **[NPM](https://www.npmjs.com/)**
+- **[Git](https://git-scm.com/)**
 
-_This installation is based on Ubuntu 20.04, Please look at other ways for you to install these if you are on another platform of linux._
+⚠️ These installation steps are tailored for Ubuntu 20.04. If you're on a different Linux platform, explore alternative installation methods.
 ```sh
 # Basic update
 sudo apt update
@@ -28,8 +39,8 @@ sudo apt install git-all
 ```
 
 # DevHub Installation
-First, We need to create a folder. The location doesn't matter, This is just the default location.
-Next, Just install the main files.
+First, create a folder (location is flexible).
+Next, Just install the core files.
 ```sh
 curl -Lo DevHub.zip https://github.com/TheDevs-Lab/DevHub/releases/latest/download/DevHub.zip
 tar -xzvf DevHub.zip
@@ -44,7 +55,7 @@ Now you've setup DevHub!
 Run ```sh
 node.js index.js``` or ```npm start``` to start DevHub. You may modify the port in ``index.js`` 
 
-# Support
+# Get Support
 You may get support by joining our [discord](https://dariandev.com/discord)!
 
 # Credits
@@ -60,4 +71,4 @@ You may get support by joining our [discord](https://dariandev.com/discord)!
 
 DevHub® Copyright © 2023
 
-[GNU Public License](https://github.com/justDarian/DevHub/blob/main/LICENSE.md)
+📜[GNU Public License](https://github.com/justDarian/DevHub/blob/main/LICENSE.md)
