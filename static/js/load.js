@@ -6,7 +6,7 @@ const frame = document.getElementById('frame');
 if (frame) {
     // sets iframe source by getting url in
     if (localStorage.getItem('url')) {
-      frame.src=__uv$config.encodeUrl.prefix+__uv$config.encodeUrl(localStorage.getItem('url'));
+      frame.src=__uv$config.prefix+__uv$config.encodeUrl(localStorage.getItem('url'));
     }
 
     // new window thingy
