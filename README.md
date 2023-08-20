@@ -71,4 +71,9 @@ You may get support by joining our [discord](https://dariandev.com/discord)!
 
 DevHub® Copyright © 2023
 
+<<<<<<< HEAD
 📜[GNU Public License](https://github.com/justDarian/DevHub/blob/main/LICENSE.md)
+=======
+📜[GNU Public License](https://github.com/justDarian/DevHub/blob/main/LICENSE.md)
+
+>>>>>>> 7b57702ae2c481fb10d28248e99e4c361869e9bb
