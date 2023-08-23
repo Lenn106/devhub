@@ -14,7 +14,6 @@ fetch('/nav/nav.html')
 
 const scripts = [
     'js/registerSW.js',
-    'js/AT.js',
     'js/assets.js',
 ];
 
@@ -37,4 +36,4 @@ setTimeout(() => {
   if (location.pathname == "/load.html") {
     devhub.settings("ReRegister SW", 'devhub.registerSW();document.getElementById("frame").contentWindow.location.reload();');
   }
-}, 100);
+}, 500);
