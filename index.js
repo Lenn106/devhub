@@ -6,7 +6,7 @@ import * as path from 'node:path';
 
 //Import proxy packages
 import { createBareServer } from '@tomphttp/bare-server-node';
-import { uvPath } from '@titaniumnetwork-dev/ultraviolet';
+import { uvPath } from '@titaniumnetwork-dev/ultraviolet@1';
 
 // Variables
 const app = express();
