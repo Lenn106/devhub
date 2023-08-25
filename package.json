@@ -12,7 +12,7 @@
   "author": "DarianDev",
   "license": "ISC",
   "dependencies": {
-    "@titaniumnetwork-dev/ultraviolet@1": "*",
+    "@titaniumnetwork-dev/ultraviolet": "^1.0.10",
     "@tomphttp/bare-server-node": "*",
     "express": "*"
   }
