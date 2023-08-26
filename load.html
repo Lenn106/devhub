@@ -10,15 +10,14 @@
   <link rel="stylesheet" href="/css/main.css">
   <script src="./uv/uv.bundle.js"></script>
   <script src="./uv/uv.config.js"></script>
-  
   <script src="/js/main.js" type="module"></script>
   <script src="/js/load.js" type="module"></script>
-
 </head>
 
 <body>
   <div id="iframeContainer">
     <div id="frameContainer">
+      <div class="loading-circle"></div>
       <iframe
         id="frame"
         frameborder="0"
@@ -62,6 +61,7 @@
       border-radius: vw;
       width: 80vw;
       height: 80vh;
+      z-index: 0;
   }
 
   #frameContainer {
@@ -106,5 +106,24 @@
       padding: 5px;
       z-index: 1;
       font-size: 30px;
+  }
+
+  .loading-circle {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border: 6px solid #f3f3f3;
+    border-top: 6px solid #3498db;
+    border-radius: 50%;
+    animation: spin 2s linear infinite;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1; 
+  }
+
+  @keyframes spin {
+    0% { transform: translate(-50%, -50%) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg); }
   }
 </style>
