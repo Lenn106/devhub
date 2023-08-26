@@ -31,9 +31,16 @@ setTimeout(() => {
   console.log("Scripts loaded"); 
   console.log("Loading settings");
 
-  devhub.settings("Cloak", 'devhub.cloak(window.location.href, "https://google.com")');
+  if (location.pathname.includes("load.html")) {
+    if (Ultraviolet && __uv$config) {
+      console.log("Ultraviolet bundle and config loaded!")
+    } else {
+      alert("[DevHub]\n\nError: Proxy Package not found")
+      console.error("Ultraviolet bundle and config not found")
+    }
 
-  if (location.pathname == "/load.html") {
-    devhub.settings("ReRegister SW", 'devhub.registerSW();document.getElementById("frame").contentWindow.location.reload();');
+  } else if (location.pathname.includes("load.html")) {
+
   }
+
 }, 500);
