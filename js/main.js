@@ -1,7 +1,7 @@
 window.devhub = {};
 window.loadstring = eval;
 
-fetch('/nav/nav.html')
+fetch('nav/nav.html')
   .then(res => res.text())
   .then(content => {
     document.body.insertAdjacentHTML('afterbegin', content);
@@ -39,7 +39,7 @@ setTimeout(() => {
       console.error("Ultraviolet bundle and config not found")
     }
 
-  } else if (location.pathname.includes("load.html")) {
+  } else if (location.pathname.includes("devhub/load.html")) {
 
   }
 
