@@ -1,7 +1,7 @@
 window.devhub = {};
 window.loadstring = eval;
 
-fetch('nav/nav.html')
+fetch('./nav/nav.html')
   .then(res => res.text())
   .then(content => {
     document.body.insertAdjacentHTML('afterbegin', content);
