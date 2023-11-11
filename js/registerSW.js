@@ -1,4 +1,4 @@
-const stockSW = "/sw.js";
+const stockSW = "js/sw.js";
 const swAllowedHostnames = ["localhost", "127.0.0.1"];
 function registerSW() {
   if (!navigator.serviceWorker) {
