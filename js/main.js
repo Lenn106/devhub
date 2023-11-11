@@ -31,7 +31,7 @@ setTimeout(() => {
   console.log("Scripts loaded"); 
   console.log("Loading settings");
 
-  if (location.pathname.includes("load.html")) {
+  if (location.pathname.includes("devhub/load.html")) {
     if (Ultraviolet && __uv$config) {
       console.log("Ultraviolet bundle and config loaded!")
     } else {
