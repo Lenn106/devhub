@@ -18,6 +18,7 @@ devhub.frame = function(url) {
 
 // Proxy Opener
 devhub.openProxy = function(urlToProxy) {
+  alert("This website is a demo of DevHub, this proxy is not currently working to prevent blockers from scanning this page.")
   localStorage.setItem("url", urlToProxy);
   location.href = "/devhub/load.html";
 };
